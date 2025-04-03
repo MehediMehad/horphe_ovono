@@ -5,11 +5,11 @@ import Apple from "../../../../../../public/apple.png";
 
 export default function HeroSection() {
   return (
-    <section className="w-full py-8 md:py-24 lg:py-16 overflow-hidden">
-      <div className="max-w-[1400px] px-4 md:px-4 mx-auto">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="flex flex-col justify-center space-y-4] md:w-[55%]">
-            <div className="">
+    <section className="w-full py-8 md:py-24 lg:py-24 overflow-hidden">
+      <div className="max-w-[1400px] px-4 lg:px-0 mx-auto">
+        <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
+          <div className="flex flex-col justify-center space-y-4] md:w-[50%]">
+            <div>
               <p className="text-[#0C0C0C] text-sm md:text-[18px] leading-[120%] tracking-[-1.5%] font-medium">
                 HELPER - Empowering Communities, One Task at a Time
               </p>
@@ -25,7 +25,9 @@ export default function HeroSection() {
             </div>
 
             <div className="space-y-2 hidden md:block">
-              <p className="text-[#3D3D3D] text-sm md:text-[18px] font-normal leading-[140%] tracking-[-1.5%] max-w-[513px]">Download on</p>
+              <p className="text-[#3D3D3D] text-sm md:text-[18px] font-normal leading-[140%] tracking-[-1.5%] max-w-[513px]">
+                Download on
+              </p>
               <div className="flex flex-wrap gap-3">
                 <a href="#" className="inline-block">
                   <Image
@@ -47,9 +49,8 @@ export default function HeroSection() {
                 </a>
               </div>
             </div>
-
           </div>
-          <div className="flex flex-col sm:flex-row justify-between gap-4 mt-6 items-center lg:justify-between md:max-w-[585px] flex-1 relative">
+          <div className="flex flex-col sm:flex-row justify-between gap-4 items-center lg:justify-between flex-1 relative">
             <div className="relative w-full md:max-h-[629px] rounded-3xl overflow-hidden">
               <Image
                 src={HeroSectionImg}
@@ -60,7 +61,9 @@ export default function HeroSection() {
               />
             </div>
             <div className="space-y-2 md:hidden">
-              <p className="text-[#3D3D3D] text-sm md:text-[18px] font-normal leading-[140%] tracking-[-1.5%] max-w-[200px] md:max-w-[513px]">Download on</p>
+              <p className="text-[#3D3D3D] text-sm md:text-[18px] font-normal leading-[140%] tracking-[-1.5%] max-w-[200px] md:max-w-[513px]">
+                Download on
+              </p>
               <div className="flex flex-wrap gap-3">
                 <a href="#" className="inline-block">
                   <Image
