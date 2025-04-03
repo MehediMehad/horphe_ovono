@@ -1,10 +1,12 @@
 "use client";
 
+import HeroSection from "@/components/modules/CommonLayout/Contact/LandingPage/HeroSection";
+
 const HomePage = () => {
 
   return (
     <div>
-      <h1>This is HomePage component</h1>
+      <HeroSection/>
     </div>
   );
 };
