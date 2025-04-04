@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full py-4 px-4 md:px-0 bg-white border-b">
-      <div className="max-w-[1400px] mx-auto flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto flex items-center justify-between">
         <Link href="/" className="font-bold text-xl">
           HELPER
         </Link>

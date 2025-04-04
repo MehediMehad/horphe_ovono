@@ -12,7 +12,7 @@ const CommonLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className={dmSans.className}>  {/* Apply the font class globally */}
       <Navbar/>
-      <main className="min-h-screen max-w-[1400px] mx-auto">{children}</main>
+      <main className="min-h-screen  mx-auto">{children}</main>
       <footer>Footer</footer>
     </div>
   );

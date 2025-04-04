@@ -5,8 +5,8 @@ import LiveTrackingScreen from "../../../../../../public/LiveTrackingScreen.png"
 export default function FeaturesSection() {
 
   return (
-    <section className="w-full mt-20">
-      <div className="max-w-[1400px] mx-auto">
+    <section className="w-full mt-5 md:mt-20">
+      <div className="max-w-[1200px] px-4 lg:px-0 md:max-h-[1200px] mx-auto">
         <div className="grid gap-6 md:grid-cols-2 mb-6">
 
           {/* Live Tracking Screen */}
@@ -23,8 +23,8 @@ export default function FeaturesSection() {
               <Image
                 src={LiveTrackingScreen}
                 alt="Live tracking screen showing helper's location"
-                width={560}
-                height={560}
+                width={500}
+                height={500}
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function FeaturesSection() {
         </div>
 
         {/* Video Section with Custom Play Button */}
-        <div className="relative w-full aspect-[16/9] md:aspect-[21/9] rounded-3xl overflow-hidden">
+        <div className="relative w-full aspect-[16/9] md:aspect-[22/10] rounded-3xl overflow-hidden">
         <iframe
         width="100%"
         height="100%"

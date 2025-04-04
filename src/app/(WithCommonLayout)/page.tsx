@@ -2,6 +2,7 @@
 
 import FeaturesSection from "@/components/modules/CommonLayout/Contact/LandingPage/FeaturesSection";
 import HeroSection from "@/components/modules/CommonLayout/Contact/LandingPage/HeroSection";
+import TasksSection from "@/components/modules/CommonLayout/Contact/LandingPage/TasksSection";
 
 const HomePage = () => {
 
@@ -9,6 +10,7 @@ const HomePage = () => {
     <div>
       <HeroSection/>
       <FeaturesSection/>
+      <TasksSection/>
     </div>
   );
 };
