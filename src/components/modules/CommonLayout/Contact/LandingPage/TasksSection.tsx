@@ -1,8 +1,8 @@
 import Image from "next/image";
 import TasksSectionImg from "../../../../../../public/TasksSection.png";
 import GooglePlay from "../../../../../../public/GooglePlay.png";
-import RecentActivity from "../../../../../../public/RecentActivity.png";
 import Apple from "../../../../../../public/apple.png";
+import RecentActivity from "../../../../../../public/RecentActivity.png";
 
 export default function TasksSection() {
   return (
