@@ -8,8 +8,8 @@ export default function TasksSection() {
   return (
     <section className="w-full mt-5 md:mt-20">
       {/* Dark section - Making Tasks Easier */}
-      <div className="bg-black">
-        <div className="bg-black max-w-[1400px] mx-auto w-full flex items-center py-14 md:h-[772px] text-white">
+      <div className="bg-[#0C0C0C]">
+        <div className="bg-[#0C0C0C] max-w-[1400px] px-4 lg:px-0 mx-auto w-full flex items-center py-14 md:h-[772px] text-white">
           <div className="w-full max-w-[1200px] px-4 md:px-0 mx-auto md:h-[580px] flex">
             <div className="w-full flex flex-col md:flex-row items-center gap-8 mx-auto">
               <div className="w-full md:w-1/2">
@@ -24,7 +24,7 @@ export default function TasksSection() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 text-center md:text-left">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 w-[487px]">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:w-[30.4375rem]">
                   Making Tasks Easier for Everyone
                 </h2>
                 <p className="text-[#E9E9E9] mb-6 max-w-md mx-auto md:mx-0">
@@ -64,7 +64,7 @@ export default function TasksSection() {
       </div>
 
       {/* Light section - Log in to see activity */}
-      <div className="w-full max-w-[1400px] mx-auto flex items-center py-14 md:h-[772px] text-[#0C0C0C]">
+      <div className="w-full max-w-[1400px] px-4 lg:px-0 mx-auto flex items-center py-14 md:h-[772px] text-[#0C0C0C]">
         <div className="w-full max-w-[1200px] px-4 md:px-0 mx-auto md:h-[580px] flex">
           <div className="w-full flex flex-col md:flex-row-reverse items-center  gap-8 mx-auto">
             <div className="w-full md:w-1/2 flex justify-end">

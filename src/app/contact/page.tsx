@@ -2,8 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Separator } from "@/components/ui/separator"
 import { Clock, Mail, MapPin, Phone, MessageSquare, Instagram, Facebook, Twitter } from "lucide-react"
 import Link from "next/link"
-import ContactForm from "@/components/Contact/ContactForm"
 import { Metadata } from "next"
+import ContactForm from "@/components/modules/CommonLayout/Contact/ContactForm"
 
 export const metadata: Metadata = {
   title: "Contact Us",
