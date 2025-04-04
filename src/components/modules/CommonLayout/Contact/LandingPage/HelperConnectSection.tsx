@@ -1,8 +1,8 @@
 const HelperConnectSection = () => {
   return (
-    <div className="bg-[#0C0C0C] md:h-[820px] flex flex-col justify-center items-center">
+    <div className="bg-[#0C0C0C] py-11 md:py-0 md:h-[820px] flex flex-col justify-center items-center">
       <div className="w-full max-w-[1200px] mx-auto text-white md:h-[680px] flex flex-col justify-between ">
-        <div className="w-full text-center flex flex-col items-center justify-center md:h-[112px]">
+        <div className="w-full text-center flex flex-col items-center justify-center h-[112px]">
           <h2 className="text-2xl md:text-[3rem] leading-[100%] font-bold tracking-[-2%] mb-3">
             How Helper Connect You
           </h2>
