@@ -32,7 +32,7 @@ export default function Navbar() {
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center gap-6">
           <Link
-            href="/feature"
+            href="/#feature"
             className="text-sm font-medium hover:text-gray-600"
           >
             Feature
@@ -50,7 +50,7 @@ export default function Navbar() {
             Why Us
           </Link>
           <Link
-            href="/faqs"
+            href="/#faqs"
             className="text-sm font-medium hover:text-gray-600"
           >
             FAQ's
@@ -108,7 +108,7 @@ export default function Navbar() {
                 Why Us
               </Link>
               <Link
-                href="/faqs"
+                href="#faqs"
                 className="text-lg font-medium hover:text-gray-600"
                 onClick={toggleMenu}
               >

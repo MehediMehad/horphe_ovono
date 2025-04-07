@@ -44,7 +44,7 @@ export default function FAQSection() {
   }
 
   return (
-    <section className="w-full py-12 md:py-24 bg-white">
+    <section id="faqs" className="w-full py-12 md:py-24 bg-white">
       <div className="max-w-[1200px] mx-auto">
         <div className="grid md:grid-cols-12 gap-8 px-4 md:px-4 lg:px-0">
           {/* Left column - Title */}
