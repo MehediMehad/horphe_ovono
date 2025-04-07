@@ -19,7 +19,7 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-            <Link href="/feature" className="hover:text-gray-600">
+            <Link href="/#feature" className="hover:text-gray-600">
               Feature
             </Link>
             <Link href="/about" className="hover:text-gray-600">
@@ -28,7 +28,7 @@ export default function Footer() {
             <Link href="/why-us" className="hover:text-gray-600">
               Why Us
             </Link>
-            <Link href="/faqs" className="hover:text-gray-600">
+            <Link href="/#faqs" className="hover:text-gray-600">
               FAQ's
             </Link>
             <Link href="/contact-us" className="hover:text-gray-600">

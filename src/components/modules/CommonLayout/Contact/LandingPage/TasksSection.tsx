@@ -81,7 +81,7 @@ export default function TasksSection() {
             <div className="w-full md:w-1/2 text-center md:text-left">
               <div className="">
                 {" "}
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 w-[487px]">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:w-[487px]">
                   Log in to see your recent activity
                 </h2>
                 <p className="text-[#3D3D3D] mb-6 max-w-md mx-auto md:mx-0">

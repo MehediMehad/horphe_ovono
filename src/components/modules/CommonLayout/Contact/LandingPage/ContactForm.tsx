@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import { toast } from "sonner"
 
 // Define the form schema with validation rules
 const formSchema = z.object({
@@ -40,7 +41,7 @@ export default function ContactForm() {
     console.log("Form submitted:", data)
 
     // Show success message
-    alert("Thank you for your message! We'll get back to you soon.")
+    toast.success('Thank you for your message! We ll get back to you soon.')
 
     // Reset the form
     form.reset()
@@ -87,7 +88,7 @@ export default function ContactForm() {
           name="phone"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-sm font-medium">Phone</FormLabel>
+              <FormLabel className="text-sm font-medium">Phone<span className="text-gray-500">{" "}(optional)</span></FormLabel>
               <FormControl>
                 <Input type="tel" placeholder="Enter your number" {...field} className="w-full p-3 border rounded-md" />
               </FormControl>
