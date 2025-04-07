@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function ContactPage() {
   return (
     <>
-      <main className="min-h-screen py-12 md:py-16">
+      <main className="py-12 md:py-16 flex items-center justify-center min-h-screen">
         <div className="max-w-[1200px] px-4 md:px-6 mx-auto">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left Column - Contact Form */}

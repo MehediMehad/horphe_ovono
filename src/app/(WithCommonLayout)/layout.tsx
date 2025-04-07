@@ -1,7 +1,6 @@
 import { DM_Sans  } from "next/font/google"
 import Navbar from "@/components/modules/shared/Navbar";
 import React from "react";
-import Footer from "@/components/modules/CommonLayout/Contact/LandingPage/Footer";
 
 // Import the DM_Sans font
 const dmSans = DM_Sans({
@@ -14,7 +13,6 @@ const CommonLayout = ({ children }: { children: React.ReactNode }) => {
     <div className={dmSans.className}>  {/* Apply the font class globally */}
       <Navbar/>
       <main className="min-h-screen  mx-auto">{children}</main>
-      <Footer/>
     </div>
   );
 };

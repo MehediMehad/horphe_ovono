@@ -5,7 +5,7 @@ import Apple from "../../../../../../public/apple.png";
 
 export default function HeroSection() {
   return (
-    <section className="w-full py-8 md:py-24 lg:py-24 overflow-hidden">
+    <section className="w-full py-8 md:pt-24 lg:pt-24 overflow-hidden mt-[73px]">
       <div className="max-w-[1200px] px-4 lg:px-0 mx-auto">
         <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
           <div className="flex flex-col justify-center space-y-4] md:w-[50%]">

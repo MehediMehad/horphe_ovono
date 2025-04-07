@@ -5,7 +5,7 @@ import LiveTrackingScreen from "../../../../../../public/LiveTrackingScreen.png"
 export default function FeaturesSection() {
 
   return (
-    <section id="feature" className="w-full mt-5 md:mt-20">
+    <section id="feature" className="w-full mt-5 md:pt-24">
       <div className="max-w-[1200px] px-4 lg:px-0 md:max-h-[1200px] mx-auto">
         <div className="grid gap-6 md:grid-cols-2 mb-6">
 
