@@ -52,11 +52,11 @@ export default function FeaturesSection() {
         </div>
 
         {/* Video Section with Custom Play Button */}
-        <div className="relative w-full aspect-[16/9] md:aspect-[22/10] rounded-3xl overflow-hidden">
+        <div className="relative w-full aspect-[16/9] md:aspect-[18/8] rounded-3xl overflow-hidden">
         <iframe
         width="100%"
         height="100%"
-        src="https://www.youtube.com/embed/EW_BZiZ1Es8?si=y45rK1SKnkRPjahM"
+        src="https://www.youtube.com/embed/a653J2MwDxY?si=1W14sM3VAKkYDhrl"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

@@ -6,7 +6,7 @@ import RecentActivity from "../../../../../../public/RecentActivity.png";
 
 export default function TasksSection() {
   return (
-    <section className="w-full mt-5 md:mt-20">
+    <section className="w-full mt-5 md:mt-16">
       {/* Dark section - Making Tasks Easier */}
       <div className="bg-[#0C0C0C]">
         <div className="bg-[#0C0C0C] max-w-[1400px] px-4 lg:px-0 mx-auto w-full flex items-center py-14 md:h-[772px] text-white">
