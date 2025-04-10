@@ -16,8 +16,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Helper App",
-  description:
-    "Welcome to Helper App! Explore our features, tasks, and helpful resources. Learn more about how we can assist you in improving your productivity.",
+  description: "Welcome to Helper App! Explore our features, tasks, and helpful resources. Learn more about how we can assist you in improving your productivity.",
+  icons: {
+    icon: logo.src
+  }
 };
 
 export default function RootLayout({
