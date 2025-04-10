@@ -12,51 +12,49 @@ const HelperConnectSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-5 md:h-[520px] px-4 md:px-0">
-          <div className="flex gap-5 h-[10rem] md:h-[15.3125rem]">
-            <div className="w-1/2 flex flex-col justify-around items-start h-full py-3 px-4 md:p-6 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
-              <p>Step 1</p>
-              <h2 className="text-[1.5rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
-                Make a request
-              </h2>
-              <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:h-[520px] px-4 md:px-4 lg:px-0">
+          {/* Step 1 */}
+          <div className="col-span-1 w-full flex flex-col justify-around space-y-3 md:space-y-0 items-start h-full  p-6 md:p-6 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
+            <p>Step 1</p>
+            <h2 className="text-[1.2rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
+              Make a request
+            </h2>
+            <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
               Post a task with all the details and set your tip amount.
-              </p>
-            </div>
-
-            <div className="w-1/2 flex flex-col justify-around items-start h-full p-2 md:p-6 py-3 px-4 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
-              <p>Step 2</p>
-              <h2 className="text-[1.5rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
-              Get matched
-              </h2>
-              <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
-              Helpers near you get notified and choose the task.
-              </p>
-            </div>
-
+            </p>
           </div>
 
-          <div className="flex gap-5 h-[10rem] md:h-[15.3125rem]">
-            <div className="w-1/2 flex flex-col justify-around items-start h-full p-2 md:p-6 py-3 px-4 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
-              <p>Step 3</p>
-              <h2 className="text-[1.5rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
+          {/* Step 2 */}
+          <div className="col-span-1 w-full flex flex-col justify-around  space-y-3 md:space-y-0 items-start h-full p-6 md:p-6 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
+            <p>Step 2</p>
+            <h2 className="text-[1.2rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
+              Get matched
+            </h2>
+            <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
+              Helpers near you get notified and choose the task.
+            </p>
+          </div>
+
+          {/* Step 3 */}
+          <div className="col-span-1 w-full flex flex-col justify-around space-y-3 md:space-y-0 items-start h-full p-6 md:p-6 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
+            <p>Step 3</p>
+            <h2 className="text-[1.2rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
               Get help
-              </h2>
-              <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
+            </h2>
+            <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
               The task is completed in real-time, and you supervise the process.
-              </p>
-            </div>
+            </p>
+          </div>
 
-            <div className="w-1/2 flex flex-col justify-around items-start h-full p-2 md:p-6 py-3 px-4 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
-              <p>Step 4</p>
-              <h2 className="text-[1.5rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
+          {/* Step 4 */}
+          <div className="col-span-1 w-full flex flex-col justify-around space-y-3 md:space-y-0 items-start h-full p-6 md:p-6 text-[#3D3D3D] bg-[#FFFFFF] rounded-[12px]">
+            <p>Step 4</p>
+            <h2 className="text-[1.2rem] md:text-[2rem] leading-[100%] font-bold tracking-[-2%] text-[#0C0C0C]">
               Complete the task
-              </h2>
-              <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
+            </h2>
+            <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
               Once the job is done, leave a review and pay the tip.
-              </p>
-            </div>
-
+            </p>
           </div>
         </div>
       </div>
