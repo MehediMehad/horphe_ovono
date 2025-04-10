@@ -2,7 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import GooglePlay from "../../../../../../public/GooglePlay.png";
 import Apple from "../../../../../../public/apple.png";
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -79,34 +80,30 @@ export default function Footer() {
 
           {/* Social Media */}
           <div className="flex gap-4">
-            <a
-              href="#"
+            <Link
+              href="https://www.facebook.com/helperllc"
+              target="_blank"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
             >
               <Facebook className="h-4 w-4" />
               <span className="sr-only">Facebook</span>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="https://www.instagram.com/helper_llc/"
+              target="_blank"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
             >
               <Instagram className="h-4 w-4" />
               <span className="sr-only">Instagram</span>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="https://x.com/Helper__1"
+              target="_blank"
               className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
             >
-              <Linkedin className="h-4 w-4" />
-              <span className="sr-only">LinkedIn</span>
-            </a>
-            <a
-              href="#"
-              className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
-            >
-              <Twitter className="h-4 w-4" />
+              <FaXTwitter  className="h-4 w-4" />
               <span className="sr-only">Twitter</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

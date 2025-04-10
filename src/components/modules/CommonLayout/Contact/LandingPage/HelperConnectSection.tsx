@@ -20,8 +20,7 @@ const HelperConnectSection = () => {
                 Make a request
               </h2>
               <p className="text-[#3D3D3D] md:text-[1.75rem] md:leading-[140%] font-normal md:tracking-[-1.5%]">
-                Simply request help for errands, moving, or any task you need
-                assistance with.
+              Post a task with all the details and set your tip amount.
               </p>
             </div>
 

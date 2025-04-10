@@ -24,7 +24,7 @@ export default function HeroSection() {
               </p>
             </div>
 
-            <div className="space-y-2 hidden md:block">
+            <div className="space-y-2 hidden md:block mt-8">
               <p className="text-[#3D3D3D] text-sm md:text-[18px] font-normal leading-[140%] tracking-[-1.5%] max-w-[513px]">
                 Download on
               </p>

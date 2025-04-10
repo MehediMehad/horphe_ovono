@@ -17,7 +17,7 @@ const faqs: FAQItem[] = [
   {
     question: "Are the helpers verified?",
     answer:
-      "Yes, all helpers go through a verification process that includes ID verification, background checks, and reviews from other users to ensure safety and reliability.",
+      "Take the background check off for now.",
   },
   {
     question: "How is payment handled?",
@@ -27,7 +27,7 @@ const faqs: FAQItem[] = [
   {
     question: "Can I schedule a task for later?",
     answer:
-      "You can schedule tasks in advance by selecting your preferred date and time when creating your request. Helpers can then see and accept these future tasks.",
+      "The helper platform is in real time help.",
   },
   {
     question: "What if no helper accepts my request?",
