@@ -1,5 +1,12 @@
 import Image from "next/image";
 import notFound from "../../../../public/notfound.png"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Careers - Helper App",
+  description:
+    "Explore career opportunities at Helper App. Currently, there are no available positions, but check back later for new openings.",
+}
 const CareersPage = () => {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen">

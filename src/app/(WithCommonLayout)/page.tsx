@@ -1,4 +1,3 @@
-"use client";
 
 import FAQSection from "@/components/modules/CommonLayout/Contact/LandingPage/FAQSection";
 import FeaturesSection from "@/components/modules/CommonLayout/Contact/LandingPage/FeaturesSection";

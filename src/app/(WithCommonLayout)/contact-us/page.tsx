@@ -2,6 +2,13 @@ import ContactForm from "@/components/modules/CommonLayout/Contact/LandingPage/C
 import AppScreenshot from "../../../../public/AppScreenshot.png";
 
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us - Helper App",
+  description:
+    "Get in touch with us for any questions, support, or inquiries. Our team is here to help you with anything you need. Reach out today!",
+};
 
 export default function ContactPage() {
   return (
