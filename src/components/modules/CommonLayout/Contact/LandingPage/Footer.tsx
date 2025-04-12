@@ -6,6 +6,7 @@ import { Facebook, Instagram } from "lucide-react"
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="w-full bg-gray-100">
       <div className="max-w-[1200px] px-4 md:px-0 mx-auto">
@@ -66,7 +67,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="py-4 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Copyright */}
-          <div className="text-sm text-gray-600">© 2024 Helper. All rights reserved.</div>
+          <div className="text-sm text-gray-600">© {currentYear} Helper. All rights reserved.</div>
 
           {/* Legal Links */}
           <div className="flex gap-6 text-sm">
