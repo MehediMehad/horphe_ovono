@@ -1,4 +1,4 @@
-import { ArrowRight, FileText, Shield } from "lucide-react";
+import { FileText, Shield } from "lucide-react";
 import Link from "next/link";
 
 export default function TermsConditionsOverView() {
@@ -60,13 +60,13 @@ export default function TermsConditionsOverView() {
                   {tocItems.map((item) => (
                     <p
                       key={item.id}
-                      className="block py-2 px-3 text-sm rounded-lg transition-colors"
+                      className="block py-2 px-3 text-[1.rem] rounded-lg transition-colors"
                     >
                       {item.title}
                     </p>
                   ))}
                 </nav>
-                <div className="mt-6 pt-4 border-t">
+                {/* <div className="mt-6 pt-4 border-t">
                   <Link
                     href="/privacy-policy"
                     className="flex items-center text-sm text-gray-600 hover:text-black"
@@ -74,7 +74,7 @@ export default function TermsConditionsOverView() {
                     View Privacy Policy
                     <ArrowRight className="ml-1 h-3 w-3" />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
