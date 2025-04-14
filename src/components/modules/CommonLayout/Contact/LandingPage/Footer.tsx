@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import GooglePlay from "../../../../../../public/GooglePlay.png";
 import Apple from "../../../../../../public/apple.png";
-import { Facebook, Instagram } from "lucide-react"
+import { Facebook, Instagram, Mail } from "lucide-react"
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
@@ -17,6 +17,10 @@ export default function Footer() {
             <Link href="/" className="font-bold text-xl">
               HELPER
             </Link>
+            <div className="mt-3 flex items-center justify-center md:justify-start text-sm text-gray-600">
+              <Mail className="h-4 w-4 mr-2" />
+              <Link href="mailto:customerservices@hlepr-llc.com">customerservices@hlepr-llc.com</Link>
+            </div>
           </div>
 
           {/* Navigation Links */}
