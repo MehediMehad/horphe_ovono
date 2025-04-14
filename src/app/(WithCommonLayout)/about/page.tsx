@@ -78,8 +78,8 @@ export default function AboutPage() {
 
       {/* Team Section */}
       <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container px-4 md:px-6 mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="max-w-[1200px] px-4 lg:px-0 mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Meet Our Leadership Team
             </h2>
@@ -93,7 +93,7 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-xl shadow-sm text-center">
               <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                 <Image
-                  src="https://img.freepik.com/free-photo/young-stylish-handsome-man-suit-street_158538-10225.jpg?uid=R102276235&ga=GA1.1.1232205255.1740826906&semt=ais_hybrid&w=740"
+                  src="https://i.pinimg.com/736x/5c/68/d9/5c68d9d8567e48ec1360e3bbf29e6d34.jpg"
                   alt="CEO"
                   width={200}
                   height={200}
@@ -111,7 +111,7 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-xl shadow-sm text-center">
               <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                 <Image
-                  src="https://img.freepik.com/free-photo/young-stylish-handsome-man-suit-street_158538-10225.jpg?uid=R102276235&ga=GA1.1.1232205255.1740826906&semt=ais_hybrid&w=740"
+                  src="https://i.pinimg.com/736x/9c/c7/d7/9cc7d70503fe569c72d46ef7754ea544.jpg"
                   alt="CTO"
                   width={200}
                   height={200}
@@ -129,7 +129,7 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-xl shadow-sm text-center">
               <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                 <Image
-                  src="https://img.freepik.com/free-photo/young-stylish-handsome-man-suit-street_158538-10225.jpg?uid=R102276235&ga=GA1.1.1232205255.1740826906&semt=ais_hybrid&w=740"
+                  src="https://i.pinimg.com/236x/97/1f/17/971f17dad41b932d7e8971f9190b667a.jpg"
                   alt="COO"
                   width={200}
                   height={200}
@@ -173,25 +173,25 @@ export default function AboutPage() {
 
       {/* Testimonials */}
       <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container px-4 md:px-6 mx-auto">
+        <div className="max-w-[1200px] lg:px-0 mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               What Our Users Say
             </h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 px-4 md:px-0">
               Don't just take our word for it—hear from the people who use
               HELPER every day.
             </p>
           </div>
 
-        <Testimonials/>
+          <Testimonials />
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 md:py-24">
-        <div className="mx-auto">
-          <div className="bg-black text-white rounded-2xl p-8 md:p-12 text-center max-w-[1200px] px-4 lg:px-0 mx-auto">
+      <section className="my-10 md:py-24">
+        <div className="">
+          <div className="bg-[#0C0C0C] text-white md:rounded-2xl p-8 md:p-12 text-center max-w-[1200px] px-4 lg:px-0 mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to join our community?
             </h2>
@@ -199,27 +199,27 @@ export default function AboutPage() {
               Whether you need help with tasks or want to offer your assistance,
               HELPER connects you with your community.
             </p>
-          {/* Download Buttons */}
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link href="#" className="inline-block">
-              <Image
-                src={GooglePlay}
-                alt="Get it on Google Play"
-                width={150}
-                height={50}
-                className="h-12 w-auto"
-              />
-            </Link>
-            <Link href="#" className="inline-block">
-              <Image
-                src={Apple}
-                alt="Download on App Store"
-                width={150}
-                height={50}
-                className="h-12 w-auto"
-              />
-            </Link>
-          </div>
+            {/* Download Buttons */}
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link href="#" className="inline-block">
+                <Image
+                  src={GooglePlay}
+                  alt="Get it on Google Play"
+                  width={150}
+                  height={50}
+                  className="h-12 w-auto"
+                />
+              </Link>
+              <Link href="#" className="inline-block">
+                <Image
+                  src={Apple}
+                  alt="Download on App Store"
+                  width={150}
+                  height={50}
+                  className="h-12 w-auto"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </section>

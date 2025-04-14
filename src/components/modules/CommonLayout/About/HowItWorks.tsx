@@ -28,10 +28,10 @@ const HowItWorks = () => {
           <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-4">
             <span className="text-xl font-bold">2</span>
           </div>
-          <h3 className="text-xl font-semibold mb-3">Complete & Pay</h3>
+          <h3 className="text-xl font-semibold mb-3">Request Assistance</h3>
           <p className="text-gray-600">
-            Once your task is completed to your satisfaction, payment is
-            processed securely through our platform.
+          As a needer, request help for your tasks, or as a helper, accept requests and assist others. 
+          You can switch roles anytime to both give and receive assistance.
           </p>
         </div>
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 const OurMission = () => {
   return (
     <section className="">
-    <div className="max-w-[1200px] px-4 lg:px-0 mx-auto">
+    <div className="max-w-[1200px] px-4 lg:px-0 mx-auto py-20">
       <div className="grid md:grid-cols-2 gap-12 items-center justify-between">
         <div>
           <h2 className="text-2xl md:text-3xl font-bold mb-6">
@@ -37,13 +37,13 @@ const OurMission = () => {
           </div>
         </div>
         <div className="rounded-2xl flex items-center justify-center">
-          <div className="">
+          <div className="max-h-[600px]">
             <Image
-              src="https://img.freepik.com/free-photo/front-view-young-male-uniform-with-hacksaw-white-surface_140725-154651.jpg?t=st=1744621594~exp=1744625194~hmac=ebcac9679e6d657e6d9df48ed241bf21aebba291618053b52c8a9c92e4f743b8&w=740"
+              src="https://img.freepik.com/free-photo/man-engaged-household-tasks-scenery_23-2151741176.jpg?t=st=1744625400~exp=1744629000~hmac=b0f69a0833c96b030da8b97e30c732ca72e1d9c8cf8f1f3e4ca9c99e2b9ddbb1&w=740"
               alt="People helping each other"
-              width={540}
-              height={400}
-              className="h-[700px]"
+              width={500}
+              height={500}
+              className="max-h-[600px] rounded-2xl"
             />
           </div>
         </div>
