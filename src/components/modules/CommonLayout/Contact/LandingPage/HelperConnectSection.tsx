@@ -1,5 +1,7 @@
 const HelperConnectSection = () => {
   return (
+    <div id="whyus"  className="">
+      <div className="h-[100px]"></div>
     <div className="bg-[#0C0C0C] py-11 md:py-0 md:h-[820px] flex flex-col justify-center items-center">
       <div className="w-full max-w-[1200px] mx-auto text-white md:h-[680px] flex flex-col justify-between ">
         <div className="w-full text-center flex flex-col items-center justify-center h-[112px]">
@@ -58,6 +60,7 @@ const HelperConnectSection = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -64,7 +64,7 @@ export default function TasksSection() {
       </div>
 
       {/* Light section - Log in to see activity */}
-      <div className="w-full max-w-[1400px] px-4 lg:px-0 mx-auto flex items-center py-14 md:h-[772px] text-[#0C0C0C]">
+      <div className="w-full max-w-[1400px] px-4 lg:px-0 mx-auto flex items-center pt-14 -mb-10 md:-mb-[100px] md:h-[610px] text-[#0C0C0C]">
         <div className="w-full max-w-[1200px] px-4 md:px-0 mx-auto md:h-[580px] flex">
           <div className="w-full flex flex-col md:flex-row-reverse items-center  gap-8 mx-auto">
             <div className="w-full md:w-1/2 flex justify-end">

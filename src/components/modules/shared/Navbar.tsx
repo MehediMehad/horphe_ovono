@@ -44,7 +44,7 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            href="/why-us"
+            href="/#whyus"
             className="text-sm font-medium hover:text-gray-600"
           >
             Why Us
@@ -87,7 +87,7 @@ export default function Navbar() {
             </div>
             <nav className="flex flex-col gap-6">
               <Link
-                href="/feature"
+                href="/#feature"
                 className="text-lg font-medium hover:text-gray-600"
                 onClick={toggleMenu}
               >
@@ -101,7 +101,7 @@ export default function Navbar() {
                 About
               </Link>
               <Link
-                href="/why-us"
+                href="/#whyus"
                 className="text-lg font-medium hover:text-gray-600"
                 onClick={toggleMenu}
               >
