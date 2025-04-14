@@ -1,8 +1,7 @@
 "use client"
 
-import { useState, useEffect } from "react"
 import Image from "next/image"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import { Carousel, CarouselContent, CarouselItem} from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
 import { Star } from "lucide-react"
 
