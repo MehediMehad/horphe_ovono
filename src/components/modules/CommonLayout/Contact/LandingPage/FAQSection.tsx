@@ -17,7 +17,7 @@ const faqs: FAQItem[] = [
   {
     question: "Are the helpers verified?",
     answer:
-      "Yes! We ensure all helpers go through a background check.",
+      "Yes! We conduct an identification check and address verification.",
   },
   {
     question: "How is payment handled?",
