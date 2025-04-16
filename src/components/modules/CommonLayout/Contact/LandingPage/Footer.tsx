@@ -19,7 +19,7 @@ export default function Footer() {
             </Link>
             <div className="mt-3 flex items-center justify-center md:justify-start text-sm text-gray-600">
               <Mail className="h-4 w-4 mr-2" />
-              <Link href="mailto:customerservices@hlepr-llc.com">customerservices@hlepr-llc.com</Link>
+              <Link href="mailto:customerservices@helper-llc.com">customerservices@helper-llc.com</Link>
             </div>
           </div>
 
